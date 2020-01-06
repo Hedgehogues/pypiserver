@@ -27,6 +27,18 @@ with ``scp``.
 
 .. contents:: Table of Contents
   :backlinks: top
+  
+  
+
+
+
+Notice
+==================================
+
+This is fork of official repository with my commets and changes for my projects.
+
+I use this repository to start a server with user authentication. This means that I need to have access to resources. In this case, several tasks arise: Saving passwords can be done using htpassword. Unfortunately, it’s possible only manually in the corresponding file, which stores all the passwords.
+
 
 
 Quickstart: Installation and Usage
