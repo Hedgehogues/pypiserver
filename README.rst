@@ -1,6 +1,7 @@
 .. -*- mode: rst; coding: utf-8 -*-
 
-# Notice
+Notice
+==================================
 
 This is fork of official repository with my commets and changes for my projects.
 
