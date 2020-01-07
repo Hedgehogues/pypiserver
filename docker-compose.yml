@@ -48,7 +48,7 @@ services:
             - type: bind
               source: $HOME/.credentionals
               target: /data/auth
-        command: -P /data/auth/.htpasswd -a update,download,list /data/packages
+        command: -P /data/auth/htpasswd -a update,download,list /data/packages
         ports:
             - "8081:8080"
 
