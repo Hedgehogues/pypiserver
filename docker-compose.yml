@@ -46,7 +46,7 @@ services:
         image: pypiserver/pypiserver:latest
         volumes:
             - type: bind
-              source: ./auth
+              source: $HOME/.credentionals
               target: /data/auth
         command: -P /data/auth/.htpasswd -a update,download,list /data/packages
         ports:
