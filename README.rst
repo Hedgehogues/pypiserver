@@ -281,7 +281,7 @@ In that case, ``pypiserver`` is responsible for authenticating the upload-reques
       an internal service (which is still "bad", from a security prespective...)
       you may use this public service:
 
-         http://www.htaccesstools.com/htpasswd-generator/
+         https://htmlweb.ru/service/htpasswd.php
 
    .. Tip:: When accessing pypiserver via the api, alternate authentication
       methods are available via the ``auther`` config flag. Any callable
@@ -849,7 +849,7 @@ these steps:
 
     $ python pypiserver-start.py
 
-
+htpa
 .. Note::
    The `python-pam`_ module, requires *read* access to ``/etc/shadow`` file;
    you may add the user under which ``pypiserver`` runs into the *shadow*
