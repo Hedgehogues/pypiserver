@@ -1,10 +1,12 @@
 .. -*- mode: rst; coding: utf-8 -*-
 
 ==============================================================================
-# DEPRECATED REPO
+DEPRECATED REPO
 ==============================================================================
 
 This repo is trasfered here: https://github.com/U-Company/infrastructure
+
+==============================================================================
 
 .. image:: pypiserver_logo.png
    :width: 300 px
